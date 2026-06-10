@@ -1,7 +1,7 @@
 # GVIH LaTeX Two-Column Template
 
-[![README](https://img.shields.io/badge/README-English-blue.svg)](README.md)
-[![README](https://img.shields.io/badge/README-中文-red.svg)](README.zh.md)
+[![README](https://img.shields.io/badge/English-blue.svg)](README.md)
+[![README](https://img.shields.io/badge/中文-red.svg)](README.zh.md)
 
 ## 1. Introduction
 GVIH is a lightweight two-column LaTeX template, with less than 300 lines of code overall, designed for organizing and publishing two-column SCI papers.

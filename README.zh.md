@@ -1,7 +1,7 @@
 # GVIH LaTeX 双列模板
 
-[![README](https://img.shields.io/badge/README-English-blue.svg)](README.md)
-[![README](https://img.shields.io/badge/README-中文-red.svg)](README.zh.md)
+[![README](https://img.shields.io/badge/English-blue.svg)](README.md)
+[![README](https://img.shields.io/badge/中文-red.svg)](README.zh.md)
 
 ## 1. 简介
 GVIH 是一个轻量级的双列 LaTeX 模板，整体不到 300 行代码，用于整理并发表双栏 SCI 论文。
