@@ -143,12 +143,3 @@ A: Use Zotero, EndNote, or similar tools to export references as BibTeX.
 
 4) Q: How to change reference style?
 A: Modify `style=numeric` in `base.cls`, e.g., `style=gb7714-2015` for GB/T 7714 format.
-
-5) Q: How to remove access date (urldate) from references?
-A: Already removed by default in `base.cls` with `\AtEveryBibitem{\clearfield{urldate}}`.
-
-6) Q: Paragraph first line not indented?
-A: Template defaults to 2-character indent for all paragraphs.
-
-7) Q: How to output references inside/outside two-column environment?
-A: By default, references are output in single-column outside multicols. Move `\printbibliography` inside `\begin{multicols}` for two-column output.

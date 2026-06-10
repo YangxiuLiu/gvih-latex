@@ -143,12 +143,3 @@ xelatex main.tex   # 第四次编译，在 main.pdf 中生成正文中的文献�
 
 4) 问：如何修改参考文献格式？
 答：在 `base.cls` 文件中修改 `style=numeric` 参数，例如改为 `style=gb7714-2015` 即可换为 GB/T 7714 格式。
-
-5) 问：如何移除参考文献中的访问日期（urldate）？
-答：模板已默认移除 urldate，配置位于 `base.cls` 中的 `\AtEveryBibitem{\clearfield{urldate}}`。
-
-6) 问：段落首行没有缩进？
-答：模板默认段落首行缩进 2 字符，章节标题后第一段也会缩进。
-
-7) 问：参考文献如何在双栏环境内外输出？
-答：默认情况下，参考文献在双栏环境外以单栏形式输出。如需在双栏内输出，请将 `\printbibliography` 放在 `\begin{multicols}` 和 `\end{multicols}` 之间。
